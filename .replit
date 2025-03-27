@@ -82,3 +82,15 @@ support = true
       sourceMaps = true
       stopOnEntry = false
       type = "pwa-node"
+
+[workflows]
+runButton = "Run Server"
+
+[[workflows.workflow]]
+name = "Run Server"
+author = 40922878
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node index.js"
