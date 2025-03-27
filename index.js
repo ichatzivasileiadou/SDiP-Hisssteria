@@ -20,10 +20,10 @@ function info() {
 
   return {
     apiversion: "1",
-    author: "",       // TODO: Your Battlesnake Username
-    color: "#888888", // TODO: Choose color
-    head: "default",  // TODO: Choose head
-    tail: "default",  // TODO: Choose tail
+    author: "Hisssteria",       // TODO: Your Battlesnake Username
+    color: "#d9a0e5", // TODO: Choose color
+    head: "all-seeing",  // TODO: Choose head
+    tail: "curled",  // TODO: Choose tail
   };
 }
 
